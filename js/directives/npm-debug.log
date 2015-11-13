@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/riaux03/.nvm/versions/node/v4.2.1/bin/node',
+1 verbose cli   '/Users/riaux03/.nvm/versions/node/v4.2.1/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'compile' ]
+2 info using npm@3.3.10
+3 info using node@v4.2.1
+4 verbose run-script [ 'precompile', 'compile', 'postcompile' ]
+5 info lifecycle @~precompile: @
+6 silly lifecycle @~precompile: no script for precompile, continuing
+7 info lifecycle @~compile: @
+8 verbose lifecycle @~compile: unsafe-perm in lifecycle true
+9 verbose lifecycle @~compile: PATH: /Users/riaux03/.nvm/versions/node/v4.2.1/lib/node_modules/npm/bin/node-gyp-bin:/Users/riaux03/Develop/emat/Angular1withTypeScript/node_modules/.bin:/Users/riaux03/.nvm/versions/node/v4.2.1/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle @~compile: CWD: /Users/riaux03/Develop/emat/Angular1withTypeScript
+11 silly lifecycle @~compile: Args: [ '-c', 'tsc --sourcemap --out js/Application.js js/_all.ts' ]
+12 silly lifecycle @~compile: Returned: code: 2  signal: null
+13 info lifecycle @~compile: Failed to exec compile script
+14 verbose stack Error: @ compile: `tsc --sourcemap --out js/Application.js js/_all.ts`
+14 verbose stack Exit status 2
+14 verbose stack     at EventEmitter.<anonymous> (/Users/riaux03/.nvm/versions/node/v4.2.1/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/riaux03/.nvm/versions/node/v4.2.1/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid @
+16 verbose cwd /Users/riaux03/Develop/emat/Angular1withTypeScript/directives
+17 error Darwin 14.5.0
+18 error argv "/Users/riaux03/.nvm/versions/node/v4.2.1/bin/node" "/Users/riaux03/.nvm/versions/node/v4.2.1/bin/npm" "run" "compile"
+19 error node v4.2.1
+20 error npm  v3.3.10
+21 error code ELIFECYCLE
+22 error @ compile: `tsc --sourcemap --out js/Application.js js/_all.ts`
+22 error Exit status 2
+23 error Failed at the @ compile script 'tsc --sourcemap --out js/Application.js js/_all.ts'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the  package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     tsc --sourcemap --out js/Application.js js/_all.ts
+23 error You can get their info via:
+23 error     npm owner ls
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
